@@ -1,0 +1,83 @@
+body {
+  padding-top: 70px;
+  background-color:white;
+}
+
+
+.navbar-nav{
+  padding-left: 50%;
+}
+
+@media screen and (max-width: 760px) {
+  .navbar-nav{
+    padding-left: 0px;;
+  }
+} 
+
+
+hr {
+  border-color: rgba(41,57,62,0.3);
+}
+
+.header {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.profile-pic {
+  margin-left: 80px;
+  border: 2px dashed #FFF;
+  background-color: rgba(41,57,62,0.7);
+}
+
+.profile-desc small {
+  color: black;
+}
+
+.jumbotron h1  {
+	color: red;
+}
+
+.content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-info {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-border{
+  width: 50px;
+  border: 2px solid black;
+}
+
+.content-header {
+  text-transform: uppercase;
+  color: #1b1bbf;
+}
+
+.aboutUs h3 {
+	color: red;
+}
+
+#about  {
+	background-color: #ddd;
+	margin-top: -20px;
+	margin-bottom: -20px;
+}
+
+#photo {
+	background-color: #ddd;
+	margin-top: -20px;
+	margin-bottom: -20px;
+}
+
+footer {
+  border-top: 2px solid black;
+  padding-top: 15px;
+  margin-top: 55px;
+	background-color: #999;
+	color: white;
+}
